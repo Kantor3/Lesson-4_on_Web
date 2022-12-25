@@ -147,7 +147,6 @@ $workExperience = [
             <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $workExperience[$i]['Period']; ?>
                 <?php if ($lastSymbol == '-'): ?>
                         <span class="w3-tag w3-teal w3-round">Current</span>
-                        ro
                 <?php endif;?></h6>
             <p><?= $workExperience[$i]['Officia']; ?>.</p>
             <hr>
